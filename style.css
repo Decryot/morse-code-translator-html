@@ -1,0 +1,39 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    text-align: -webkit-center;
+}
+.translator-container {
+    display: inline-block;
+    margin-top: 350px;
+    width: 600px;
+    height: 400px;
+}
+.title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text-input {
+    max-width: 540px;
+    max-height: 100px;
+
+    min-width: 540px;
+    min-height: 100px;
+
+    display: flex;
+    width: 540px;
+    height: 100px;
+    border-width: 0px;
+    border-color: none;
+
+    background-color: rgb(240, 240, 240);
+}.output {
+    margin-top: 20px;
+    width: 500px;
+    min-height: 200px;
+    max-height: 1000px;
+    background-color: rgb(240, 240, 240);
+    overflow: hidden;
+    padding: 20px;
+    font-size: 25px;
+}
